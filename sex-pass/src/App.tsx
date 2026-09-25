@@ -59,7 +59,7 @@ export default function App() {
 
   // keyboard navigation
   useEffect(() => {
-    const order: Step[] = ['intro', 'attract', 'tension', 'choice', 'confirm', 'verify', 'pass', 'final']
+    const order: Step[] = ['intro', 'attract', 'tension', 'choice', 'confirm', 'verify', 'final']
     function onKey(e: KeyboardEvent) {
       if (e.key === 'ArrowLeft') {
         const i = order.indexOf(step)
